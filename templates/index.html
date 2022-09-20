@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home Pge</title>
+</head>
+<body>
+  <h1>Homepage</h1>
+ {% for x in range(10) %}
+     {% if x % 2 == 1 %}
+        <p>{{x}}</p>
+        {% endif %}
+
+ {% endfor %}
+</body>
+</html>
